@@ -6,9 +6,11 @@ namespace Tyuiu.ArapovTY.Sprint3.Task1.V30.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sumSeries = 0;
+            double d;
             while (startValue <= stopValue)
             {
-                sumSeries = sumSeries + ((Math.Pow(value, startValue) + (5 / (startValue + 4))) * Math.Sin(value));
+                d = Convert.ToDouble(startValue);
+                sumSeries = sumSeries + ((Math.Pow(value, d) + (5 / (d + 4))) * Math.Sin(value));
                 startValue++;
             }
             return Math.Round(sumSeries, 3);
