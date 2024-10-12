@@ -21,7 +21,7 @@ namespace Tyuiu.ArapovTY.Sprint3.Task1.V30
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             double value = 0.5;
-            int startValue = 1;
+            double startValue = 1;
             int stopValue = 12;
             Console.WriteLine("Переменная X= " + value);
             Console.WriteLine("Старт шага = " + startValue);

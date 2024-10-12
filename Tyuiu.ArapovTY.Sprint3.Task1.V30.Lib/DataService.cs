@@ -8,7 +8,7 @@ namespace Tyuiu.ArapovTY.Sprint3.Task1.V30.Lib
             double sumSeries = 0;
             while (startValue <= stopValue)
             {
-                sumSeries += (Math.Pow(value, startValue) + (5 / (startValue + 4))) * Math.Sin(value);
+                sumSeries = sumSeries + ((Math.Pow(value, startValue) + (5 / (startValue + 4))) * Math.Sin(value));
                 startValue++;
             }
             return Math.Round(sumSeries, 3);
