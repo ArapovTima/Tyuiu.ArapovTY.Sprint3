@@ -7,9 +7,9 @@ namespace Tyuiu.ArapovTY.Sprint3.Task0.V22.Lib
         {
             double sumSeries = 0;
             int i;
-            for (i = startValue; i < stopValue; i++)
+            for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + ((Math.Pow(value, i) + 4) * Math.Cos(value));
+                sumSeries += ((Math.Pow(value, i)) + 4) * (Math.Cos(value));
             }
             return Math.Round(sumSeries,3);
         }
