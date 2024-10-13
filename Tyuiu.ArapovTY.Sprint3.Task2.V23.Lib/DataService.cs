@@ -8,9 +8,9 @@ namespace Tyuiu.ArapovTY.Sprint3.Task2.V23.Lib
             double sumSeries = 0;
             do
             {
-                sumSeries += ((Math.Pow(value, startValue) + (1 / 4))) * Math.Sin(startValue);
+                sumSeries += (Math.Pow(value, startValue) + 1.0 / 4.0) * Math.Sin(startValue);
                 startValue++;
-            }while (startValue <= stopValue);
+            } while (startValue <= stopValue);
             return Math.Round(sumSeries, 3);
         }
     }
