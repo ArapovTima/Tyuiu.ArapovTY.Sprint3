@@ -21,7 +21,7 @@ namespace Tyuiu.ArapovTY.Sprint3.Task3.V15
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             string value = "Irmmse mg sermmmrt";
-            char chr = 'g';
+            char chr = 'm';
             Console.WriteLine("Исходная строка = " + value);
             Console.WriteLine("Искомый результат = " + chr);
             Console.WriteLine("***************************************************************************");
