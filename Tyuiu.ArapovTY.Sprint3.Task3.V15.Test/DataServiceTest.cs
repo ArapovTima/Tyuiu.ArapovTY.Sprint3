@@ -9,9 +9,9 @@ namespace Tyuiu.ArapovTY.Sprint3.Task3.V15.Test
         {
             DataService ds = new DataService();
             string str = "Irmmse mg sermmmrt";
-            char chr = 'm';
+            char chr = 'g';
             int res = ds.GetMinCharCount(str, chr);
-            int wait = 6;
+            int wait = 1;
             Assert.AreEqual(wait, res);
         }
     }
