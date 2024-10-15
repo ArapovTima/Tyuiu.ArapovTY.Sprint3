@@ -10,11 +10,11 @@ namespace Tyuiu.ArapovTY.Sprint3.Task4.V10.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
-                    res *= ((Math.Sin(x) - x)) / x;
+                    res = res * (Math.Sin(x) - x) / x;
                 }
             }
             return Math.Round(res, 3);
